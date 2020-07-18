@@ -1,0 +1,7 @@
+$default_padding: 5px;
+$xsmall: $default_padding;
+$small: calc(#{$default_padding} * 2);
+$med: calc(#{$default_padding} * 3);
+$large: calc(#{$default_padding} * 4);
+$xlarge: calc(#{$default_padding} * 5);
+$xxlarge: calc(#{$default_padding} * 6);

@@ -1,0 +1,33 @@
+@import "src/assets/colors";
+@import "src/assets/size";
+
+.nav-root {
+  display: flex;
+  min-height: 50px;
+  width: 100%;
+  align-items: center;
+  background: $burgundy;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background 300ms, box-shadow 300ms;
+  box-shadow: $white 0 0 0;
+  justify-content: space-between;
+}
+
+.title {
+  color: $white;
+  padding: 0 $large;
+}
+
+.socialLinkContainer {
+  padding: 0 $large;
+
+  svg {
+    color: $white;
+  }
+
+  > .iconButton {
+    padding: 0 $small;
+  }
+}

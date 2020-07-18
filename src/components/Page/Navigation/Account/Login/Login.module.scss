@@ -1,0 +1,39 @@
+@import 'src/assets/size';
+@import 'src/assets/colors';
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  input {
+    margin-bottom: $large;
+    height: 50px;
+  }
+}
+
+.root {
+  .error,
+  .title,
+  .button {
+    color: $burgundy;
+  }
+
+  .error {
+    margin-bottom: 10px;
+  }
+
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+.password-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  svg {
+    cursor: pointer;
+  }
+}

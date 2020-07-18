@@ -1,0 +1,16 @@
+@import "src/assets/colors";
+@import "src/assets/size";
+
+.root {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  svg {
+    color: $white;
+    padding: 0 $large
+  }
+}
+
+.root:hover {
+  cursor: pointer;
+}

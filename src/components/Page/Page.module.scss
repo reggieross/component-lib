@@ -1,0 +1,7 @@
+@import 'src/assets/size';
+
+.page-content {
+  min-height: calc(100vh - 100px);
+  position: relative;
+  padding: 0 $large;
+}
