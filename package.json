@@ -1,6 +1,6 @@
 {
   "name": "@rross_llc/component-lib",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Standard React component lib",
   "main": "dist/index.js",
   "types": "dist/types/src/index.d.ts",
